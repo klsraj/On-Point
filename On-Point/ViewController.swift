@@ -15,6 +15,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func knockKnockButtonClicked(_ sender: Any) {
+        
+        let knockKnockAlert  = UIAlertController(title: "Knock Knock!", message: "Who's there", preferredStyle: .actionSheet)
+        
+        let knockKnockAction = UIAlertAction(title: "ME!", style: .default, handler: nil)
+        
+        knockKnockAlert.addAction(knockKnockAction)
+        
+        present(knockKnockAlert, animated: true, completion: nil)
+    }
+    
     @IBAction func hitMeButtonClicked(_ sender: Any) {
         
         let alert  = UIAlertController(title: "Hello World", message: "This is my first app", preferredStyle: .alert)
@@ -25,6 +36,8 @@ class ViewController: UIViewController {
         
         present(alert, animated: true, completion: nil)
     }
+    
+    
     
 }
 
