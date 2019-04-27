@@ -26,14 +26,6 @@
                                     <action selector="hitMeButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7KV-K2-nRh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qx0-cs-y87">
-                                <rect key="frame" x="235" y="208" width="99" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Knock, Knock!"/>
-                                <connections>
-                                    <action selector="knockKnockButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uK7-a5-CCe"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

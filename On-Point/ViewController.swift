@@ -14,17 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func knockKnockButtonClicked(_ sender: Any) {
-        
-        let knockKnockAlert  = UIAlertController(title: "Knock Knock!", message: "Who's there", preferredStyle: .actionSheet)
-        
-        let knockKnockAction = UIAlertAction(title: "ME!", style: .default, handler: nil)
-        
-        knockKnockAlert.addAction(knockKnockAction)
-        
-        present(knockKnockAlert, animated: true, completion: nil)
-    }
     
     @IBAction func hitMeButtonClicked(_ sender: Any) {
         
