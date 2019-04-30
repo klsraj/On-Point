@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F0B3B702277EDAB00AF5096 /* OnPoint.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F0B3B6F2277EDAB00AF5096 /* OnPoint.html */; };
+		2F0B3B732277F4DF00AF5096 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0B3B722277F4DF00AF5096 /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		2FFFFFC722741B71005465E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFFFFC622741B71005465E3 /* AppDelegate.swift */; };
 		2FFFFFC922741B71005465E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFFFFC822741B71005465E3 /* ViewController.swift */; };
 		2FFFFFCC22741B71005465E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFFFFCA22741B71005465E3 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		2F0B3B6F2277EDAB00AF5096 /* OnPoint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = OnPoint.html; sourceTree = "<group>"; };
+		2F0B3B722277F4DF00AF5096 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2FFFFFC322741B70005465E3 /* On-Point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On-Point.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFFFFC622741B71005465E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FFFFFC822741B71005465E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,17 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0B3B732277F4DF00AF5096 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F0B3B712277F4DF00AF5096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0B3B722277F4DF00AF5096 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2FFFFFBA22741B70005465E3 = {
 			isa = PBXGroup;
 			children = (
 				2FFFFFC522741B70005465E3 /* On-Point */,
 				2FFFFFC422741B70005465E3 /* Products */,
+				2F0B3B712277F4DF00AF5096 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
