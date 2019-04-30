@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0B3B702277EDAB00AF5096 /* OnPoint.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F0B3B6F2277EDAB00AF5096 /* OnPoint.html */; };
 		2FFFFFC722741B71005465E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFFFFC622741B71005465E3 /* AppDelegate.swift */; };
 		2FFFFFC922741B71005465E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFFFFC822741B71005465E3 /* ViewController.swift */; };
 		2FFFFFCC22741B71005465E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFFFFCA22741B71005465E3 /* Main.storyboard */; };
 		2FFFFFCE22741B71005465E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFFFFCD22741B71005465E3 /* Assets.xcassets */; };
 		2FFFFFD122741B71005465E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFFFFCF22741B71005465E3 /* LaunchScreen.storyboard */; };
 		2FFFFFD92276504F005465E3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFFFFD82276504F005465E3 /* AboutViewController.swift */; };
-		2FFFFFDB227655AE005465E3 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFFFFDA227655AE005465E3 /* AboutAuthorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F0B3B6F2277EDAB00AF5096 /* OnPoint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = OnPoint.html; sourceTree = "<group>"; };
 		2FFFFFC322741B70005465E3 /* On-Point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On-Point.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFFFFC622741B71005465E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FFFFFC822741B71005465E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		2FFFFFD022741B71005465E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FFFFFD222741B71005465E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FFFFFD82276504F005465E3 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		2FFFFFDA227655AE005465E3 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				2FFFFFCF22741B71005465E3 /* LaunchScreen.storyboard */,
 				2FFFFFD222741B71005465E3 /* Info.plist */,
 				2FFFFFD82276504F005465E3 /* AboutViewController.swift */,
-				2FFFFFDA227655AE005465E3 /* AboutAuthorViewController.swift */,
+				2F0B3B6F2277EDAB00AF5096 /* OnPoint.html */,
 			);
 			path = "On-Point";
 			sourceTree = "<group>";
@@ -130,6 +130,7 @@
 			files = (
 				2FFFFFD122741B71005465E3 /* LaunchScreen.storyboard in Resources */,
 				2FFFFFCE22741B71005465E3 /* Assets.xcassets in Resources */,
+				2F0B3B702277EDAB00AF5096 /* OnPoint.html in Resources */,
 				2FFFFFCC22741B71005465E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +145,6 @@
 				2FFFFFD92276504F005465E3 /* AboutViewController.swift in Sources */,
 				2FFFFFC922741B71005465E3 /* ViewController.swift in Sources */,
 				2FFFFFC722741B71005465E3 /* AppDelegate.swift in Sources */,
-				2FFFFFDB227655AE005465E3 /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

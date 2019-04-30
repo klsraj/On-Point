@@ -26,6 +26,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         currentValue = Int(round(sliderValueOutlet.value))
         startNewRound()
+        
+        let thumbImageNormal = #imageLiteral(resourceName: "SliderThumb-Normal")
+        let thumbImageHighlighted = #imageLiteral(resourceName: "SliderThumb-Highlighted")
+        
+        let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
+        let trackLeftImage = #imageLiteral(resourceName: "SliderTrackLeft")
+        let trackLeftResizable = trackLeftImage.resizableImage(withCapInsets: insets)
+        let trackRightImage = #imageLiteral(resourceName: "SliderTrackRight")
+        let trackRightResizable = trackRightImage.resizableImage(withCapInsets: insets)
+        
+        sliderValueOutlet.setThumbImage(thumbImageNormal, for: .normal)
+        sliderValueOutlet.setThumbImage(thumbImageHighlighted, for: .highlighted)
+        sliderValueOutlet.setMinimumTrackImage(trackLeftResizable, for: .normal)
+        sliderValueOutlet.setMaximumTrackImage(trackRightResizable, for: .normal)
     }
     
     @IBAction func sliderMovedValue(_ sliderValueOutlet: UISlider)
