@@ -18,15 +18,12 @@ class AboutViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let url = Bundle.main.url(forResource: "OnPoint",
-                                     withExtension: "html") {
-            if let htmlData = try? Data(contentsOf: url) {
-                let baseURL = URL(fileURLWithPath: Bundle.main.bundlePath)
-                webView.load(htmlData, mimeType: "text/html",
-                             characterEncodingName: "UTF-8",
-                             baseURL: baseURL)
-            }
+        if let htmlPath = Bundle.main.path(forResource: "OnPoint", ofType: "html") {
+            let url = URL(fileURLWithPath: htmlPath)
+            let request = URLRequest(url: url)
+            webView.load(request)
         }
+
     }
 
     @IBAction func aboutViewControllerCloseButtonClicked(_ sender: Any) {
